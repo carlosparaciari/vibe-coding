@@ -1,6 +1,6 @@
 import unittest
 import pandas as pd
-from src.did.modelling import calculate_did
+from did.modelling import calculate_did
 
 class TestDiD(unittest.TestCase):
     def test_calculate_did_simple_case(self):

@@ -1,7 +1,7 @@
 import argparse
 import json
 import pandas as pd
-from src.did.modelling import calculate_did
+from did.modelling import calculate_did
 
 def main():
     """
